@@ -1,0 +1,392 @@
+header{
+    background-color: rgb(53, 58, 64);
+}
+.TextoGris{
+    color: darkgray;
+}
+.TextoVerde{
+    color: rgb(0, 128, 0) !important;
+}
+.nav-item:hover{
+    filter: brightness(150%);
+    transition: filter 0.15s ease-in-out;
+}
+.conferencia{
+    background: linear-gradient(to right, #00000085, #00000085), url(../assets/img/hawaii.jpg);
+    background-position: center;
+    padding: 10% 5% 5% 5%;
+}
+.boton{
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    width: fit-content;
+    padding: 10px 16px;
+    margin: 15px;
+    &:active{
+        padding-left: 18px;
+        padding-right: 14px;
+    }
+    &:hover{
+        color: white;
+        filter: brightness(120%);
+        transition: filter 0.15s ease-in-out;
+    }
+}
+.verde{
+    border-color: #29a744;
+    background-color: #29a744;
+    &:active{
+        background-color: #44cc61;
+    }
+}
+.oradores{
+    padding: 30px 0px;
+}
+.tarjeta{
+    background-color: white;
+    border-radius: 5px;
+    height: fit-content;
+    max-width: 373px;
+    margin: 15px 1px;
+    border: 1px solid lightgrey;
+    & div{
+        padding: 0 5px 0 20px;
+    }
+    & img{
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+        border-radius: 5px 5px 0px 0px;
+    }
+    .pastillas{
+        display: flex;
+        padding: 0;
+    }
+    & h4{                                   /*Temas de charla*/
+        margin: 20px 5px 0px 0;
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding: 1px 5px;
+        border-radius: 5px;        
+    }
+    & h3{                                   /*Nombres*/
+        font-size: 2.3rem;
+        font-weight: 500;
+        padding-bottom: 15px; 
+        text-align: left;
+    }
+    & p{                                    /*Descripción*/
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height:2;
+        text-align: left;
+    }
+}
+.fondorojo{
+    color: white;
+    background-color: rgb(219, 54, 68);
+}
+.fondoamarillo{
+    background-color: rgb(254, 193, 7);
+}
+.fondogris{
+    color: white;
+    background-color: rgb(107, 116, 125);
+}
+.fondocyan{
+    color: white;
+    background-color: rgb(23, 162, 185);
+}
+.lugarfecha{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #00000085, #00000085), url(../assets/img/honolulu.jpg);
+    background-position: center;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+    & img{
+        width: 0;
+    }
+    & h2{
+        font-size: 2.5rem; 
+    }
+    .textolf{
+        padding: 15px;
+        color: white;
+        & p{
+            text-align: left;
+            max-width: 620px;
+            line-height: 2;
+            padding-bottom: 20px;
+        }
+
+    }
+}
+.mostrar{
+    display:block;
+}
+.convierteteenorador{
+    padding-top: 15px;
+    height: fit-content;
+    font-size: 1.5rem;
+    font-weight: 400;
+    & a{
+        color: black;
+        text-decoration-line: underline;
+        text-decoration-style: dotted;
+    }
+}
+.celda{
+    border: 1px solid lightgray;
+    padding: 0 10px;
+    height: calc(1em + 25px);
+    border-radius: 5px;
+}
+.media{
+    width: 87vw;
+    color: gray;
+}
+.ancha{
+    width: 87vw;
+    min-width: 420px;
+}
+.totalapagar{
+    background-color: rgb(204, 229, 255);
+    color: rgb(42, 86, 134);
+    border-radius: 5px;
+    height: calc(1em + 40px);
+    width: 87vw;
+}
+.vw100{
+    width: 90vw;
+}
+.boton2{
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #96c93e;
+    color: white;
+    margin: 20px 0;
+    height: calc(1rem + 35px);
+    &:hover{
+        cursor: pointer;
+    }
+    &:active{
+        padding-left: 18px;
+        padding-right: 14px;
+        background-color: #b6f748;
+    }
+}
+.nya{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+}
+.celdanya{
+    width: 90vw;
+    max-width: 750px;
+    margin: 10px 0;
+    height: calc(1em + 20px);
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.celdatxt{
+    width: 90vw;
+    max-width: 750px;
+    height: 150px;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.botonenviar{
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #96c93e;
+    color: white;
+    margin: 20px 0;
+    height: calc(1rem + 35px);
+    font-size: 2rem;
+    width: 90vw;
+    max-width: 750px;
+    &:hover{
+        cursor: pointer;
+    }
+    &:active{
+        padding-left: 18px;
+        padding-right: 14px;
+        background-color: #b6f748;
+    }
+}
+.videopublicidad{
+    width: 100vw;
+    max-width: 560px;
+    height:315px;
+}
+.pie{
+    background-image: linear-gradient(to right, #1c3643, #1c3d4e, #1d445a, #1d4c66, #1e5372);
+    padding: 0px calc(20% - 171.3px);
+    bottom: 0px; /*ver si queda o se va*/
+}
+.cuadrocat{
+    width: 280px;
+    height: 250px;
+}
+.estudiante{
+    border: 2px solid #1284ff;
+    &:hover{
+        background-color: #c0ddfd;
+        transition: background-color 0.15s ease-in-out;
+    }
+}
+.trainee{
+    border: 2px solid #34aec1;
+    &:hover{
+        background-color: #8fc2ca;
+        transition: background-color 0.15s ease-in-out;
+    }    
+}
+.junior {
+    border: 2px solid #f6c940;
+    &:hover{
+        background-color: #f3e4b5;
+        transition: background-color 0.15s ease-in-out;
+    }     
+}
+.estudiante{
+    border: 2px solid #1284ff;
+}
+.sección404{
+    font-size: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 422px);
+    height: fit-content;
+    align-items: center;
+}
+.img404{
+    background: url(../assets/img/ezgif-1-72f03d78b0.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vw / 13 * 10);
+    max-height: 604px;
+    width: 100%;
+    max-width: 780px;
+}
+@media (min-width: 768px) {
+    .media{
+        width: 42.4vw;
+        min-width: 200px;
+    }
+}
+@media (min-width: 992px) {
+    .sección404{
+        min-height: calc(100vh - 200px);
+    }
+    .pie{
+        height: 100px;
+        & li{
+            text-align: center;
+            width: 134px;
+        }
+    }
+    .media{
+        min-width: none;
+        width: 420px;
+    }
+    .ancha{
+        width: 856px;
+    }
+}
+@media (min-width: 581px) {
+    .tarjeta{
+        height: 650px;
+    }
+}
+@media (min-width: 1020px) {
+    .conferencia{
+        align-items: end !important;
+        padding: 16% 10% 7.5% 0;
+        & p{
+            text-align: right;
+            width: 850px;
+        }
+        & div{
+            flex-direction: row !important;
+        }    
+    }
+    .boton{
+        margin: 15px 15px 15px 0;
+    }
+    .verde{
+        margin: 15px 0px 15px 0;
+    }
+    .oradores{
+        padding: 15px 0px;
+    }
+    .tarjeta{
+        max-width: 22.4%;
+        min-width: 373px;
+        margin: 0 1px 30px 1px;
+        &:hover{
+            box-shadow: 3px 2px 2px #00000050;
+        }
+    }
+    .lugarfecha{
+        justify-content: left;
+        background: none;
+        background-color: rgb(53, 58, 64);
+        padding-bottom: 0px;
+        & img{
+            width: 50%;
+            border-right: 1px solid white;
+        }
+        .textolf{
+            border-left: 1px solid white;
+            & p{
+                padding-bottom: 25px;
+                max-width: none;
+            }
+    
+        }
+    }
+    .convierteteenorador{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formulario{
+        width: 750px;
+    }
+    .nya{
+        justify-content: space-between;
+        padding: 10px 0 0 0;
+    }
+    .celdanya{
+        width: 360px;
+        margin: 0;
+        padding-left: 10px;
+    }
+    .celdatxt{
+        font-size: 2.5rem;
+        padding: 10px 20px;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .botonenviar{
+        text-align: center;
+        margin: 25px 0 20px 0;
+        width: 100%;
+    }
+}
+@media (min-width: 1250px) {
+    .oradores{
+        min-width: 1130px;
+    }
+    .tarjeta{
+        margin: 10px 15px 30px 15px;
+    }
+}
